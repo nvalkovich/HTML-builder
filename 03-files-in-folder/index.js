@@ -15,7 +15,7 @@ async function readFilesInDir() {
     const name = path.parse(file.name).name;
     const size = stat.size;
     
-    console.log(`${name} - ${ext} - ${size}kb`);
+    console.log(`${name} - ${ext} - ${size}b`);
   })
 }
 
